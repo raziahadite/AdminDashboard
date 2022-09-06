@@ -4,7 +4,7 @@ import { FiSettings} from 'react-icons/fi';
 import { TooltipComponent} from '@syncfusion/ej2-react-popups';
 
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
-import { LearnC, Calendar, Users, Lessons, UploadVideo } from './pages';
+import { LearnC, Calendar, Users, UploadLessonData, UploadVideo, Tests, Lessons } from './pages';
 import './App.css';
 
 import { useStateContext } from './contexts/ContextProvider';
@@ -60,9 +60,11 @@ const App = () => {
                             <Route path="/learnc" element={<LearnC />} />
 
                             {/* Pages */}
-                            <Route path="/lessons" element={<Lessons />} />
+                            <Route path="/uploadlessonData" element={<UploadLessonData />} />
                             <Route path="/uploadVideo" element={<UploadVideo />} />
                             <Route path="/users" element={<Users />} />
+                            <Route path="/tests" element={<Tests />} />
+                            <Route path="/lessons" element={<Lessons />} />
                             
                             {/* Apps */}
                             <Route path="/calendar" element={<Calendar />} />

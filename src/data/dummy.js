@@ -73,7 +73,7 @@ export const links = [
     title: 'Pages',
     links: [
       {
-        name: 'lessons',
+        name: 'uploadLessonData',
         icon: <FiEdit />,
       },
       {
@@ -81,8 +81,16 @@ export const links = [
         icon: <AiOutlineShoppingCart />,
       },
       {
+        name: 'lessons',
+        icon: <FiEdit />,
+      },
+      {
         name: 'users',
         icon: <IoMdContacts />,
+      },
+      {
+        name: 'tests',
+        icon: <AiOutlineShoppingCart />,
       },
     ],
   },
@@ -626,3 +634,161 @@ export const stackedPrimaryYAxis = {
   minorTickLines: { width: 0 },
   labelFormat: '{value}',
 };
+
+export const testGrid = [
+  {
+    field: 'Name',
+    headerText: 'Name',
+    width: '120',
+    textAlign: 'Center',
+  },
+  {
+    field: 'Title',
+    headerText: 'Title',
+    width: '170',
+    textAlign: 'Center',
+  },
+  {
+    field: 'TestID',
+    headerText: 'TestID',
+    width: '125',
+    textAlign: 'Center'
+  },
+];
+
+export const testData = [
+  {
+    TestID: 1,
+    Name: 'Nancy Davolio',
+    Title: 'nd',
+  },
+  {
+    TestID: 2,
+    Name: 'Kirabo',
+    Title: 'nas_d',
+  },
+  {
+    TestID: 3,
+    Name: 'Lil Nas',
+    Title: 'i_a23',
+  },
+  {
+    TestID: 4,
+    Name: 'Poat Malone',
+    Title: 'malone',
+  },
+  {
+    TestID: 5,
+    Name: 'Xxxtentacion',
+    Title: 'ocion',
+  },
+  {
+    TestID: 4,
+    Name: 'Penjani Inyene',
+    Title: 'inyene',
+  },
+  {
+    TestID: 5,
+    Name: 'Miron Vitold',
+    Title: 'mv',
+  },
+  {
+    TestID: 1,
+    Name: 'Jamie Peters',
+    Title: 'jamie',
+  },
+  {
+    TestID: 2,
+    Name: 'Jeane Claude',
+    Title: 'claude',
+  },
+  {
+    TestID: 3,
+    Name: 'Mohammed Ali',
+    Title: 'm_0ali',
+  },
+  {
+    TestID: 4,
+    Name: 'Jake Simpson',
+    Title: 'sjake_s',
+  },
+];
+
+export const lessonGrid = [
+  {
+    field: 'Name',
+    headerText: 'Name',
+    width: '120',
+    textAlign: 'Center',
+  },
+  {
+    field: 'Title',
+    headerText: 'Title',
+    width: '170',
+    textAlign: 'Center',
+  },
+  {
+    field: 'LessonID',
+    headerText: 'LessonID',
+    width: '125',
+    textAlign: 'Center'
+  },
+];
+
+export const lessonData = [
+  {
+    LessonID: 1,
+    Name: 'Nancy Davolio',
+    Title: 'nd',
+  },
+  {
+    LessonID: 2,
+    Name: 'Kirabo',
+    Title: 'nas_d',
+  },
+  {
+    LessonID: 3,
+    Name: 'Lil Nas',
+    Title: 'i_a23',
+  },
+  {
+    LessonID: 4,
+    Name: 'Poat Malone',
+    Title: 'malone',
+  },
+  {
+    LessonID: 5,
+    Name: 'Xxxtentacion',
+    Title: 'ocion',
+  },
+  {
+    LessonID: 6,
+    Name: 'Penjani Inyene',
+    Title: 'inyene',
+  },
+  {
+    LessonID: 7,
+    Name: 'Miron Vitold',
+    Title: 'mv',
+  },
+  {
+    LessonID: 8,
+    Name: 'Jamie Peters',
+    Title: 'jamie',
+  },
+  {
+    LessonID: 9,
+    Name: 'Jeane Claude',
+    Title: 'claude',
+  },
+  {
+    LessonID: 10,
+    Name: 'Mohammed Ali',
+    Title: 'm_0ali',
+  },
+  {
+    LessonID: 11,
+    Name: 'Jake Simpson',
+    Title: 'sjake_s',
+  },
+];
