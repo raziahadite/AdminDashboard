@@ -81,6 +81,10 @@ export const links = [
         icon: <AiOutlineShoppingCart />,
       },
       {
+        name: 'lessonForm',
+        icon: <AiOutlineShoppingCart />,
+      },
+      {
         name: 'uploadTests',
         icon: <IoMdContacts />,
       },
